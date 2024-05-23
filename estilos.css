@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color1:#F2388F;
+    --color2:#BF3B79;
+    --color3:#F2EEEB;
+    --color4:#401F18;
+    --color5:#D94032;
+}
+#padre{
+    width: 750px;
+    margin: 5px auto;
+}
+#cabecera{
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;;
+    margin: 5px;
+}#menu ul{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}#menu li{
+    margin: 15px;
+    list-style-type: none;
+    
+}
+#menu a{
+    color: var(--color1);
+    text-decoration: none;
+    font-family: "Poetsen One", sans-serif;
+
+}
+.b{
+    color:var(--color3);
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 1px;
+}
+#logo img{
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#contenidoprodu{
+    display: flex;
+    margin: 15px;
+    padding: 4px;
+
+}
+#lista{
+    border: 1px solid var(--color5);
+    height: 625px; 
+    width: 120px;
+    margin: 10px;
+}
+#lista li{
+    list-style-type: none;
+    margin: 20px;
+    color: #BF3B79;
+    font-family: "Poetsen One", sans-serif;
+}
+#menudesayunos{
+    border: 1px solid var(--color5);
+    margin: 10px;
+}
+#desayuno{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 2px;
+}
+#desayuno img{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
+.articulo{
+    display: flex;
+    height: 250px;
+    margin: 10px;
+    width: 730px;
+}
+#imagen{
+    height: 250px;
+    width: 365px;
+    display: flex;
+}
+#imagen img{
+    width: 365px;
+}
+.texto{
+    width: 365px;
+    background-color: var(--color2);
+}
+#menudos{
+    height: 50px;
+    margin: 5px;
+    
+}
+#menudos ul{
+    display: flex;
+    
+}
+#menudos li{
+    list-style-type: none;
+    margin: 25px;
+    padding: 1px;
+    align-items: center;
+
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+#pie i{
+    font-size: 25px;
+    margin: 5px;
+    padding: 2px;
+}
+#pie img{
+    height: 70px;
+}
+h3{
+    margin: 12px;
+    color: var(--color4);
+    font-family: "Poetsen One", sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 35px;
+    color: var(--color4);
+    font-family: "Poetsen One", sans-serif ;
+}
+.pe{
+    text-align: center;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: var(--color4);
+    padding: 10px;
+    color: var(--color3);
+    font-family: "Poetsen One", sans-serif;
+}
+.t{
+    text-align: center;
+    margin: 25px;
+    color: var(--color4);
+    font-family: "Poetsen One", sans-serif;
+}
+#todos p{
+    margin:10px;
+    text-decoration-line: underline;
+}
+#menudesayunos p{
+    color:#BF3B79;
+    font-family: "Poetsen One", sans-serif;
+}
+#todos{
+    background-color: rgb(236, 229, 229);
+    padding: 1px;
+}
+hr{
+    color: grey;
+}
+p{
+    margin: 2px;
+    padding: 10px;
+}
+
